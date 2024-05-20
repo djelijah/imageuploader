@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "api/upload.js",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "pages/index.js",
+        "use": "@vercel/next.config.js"
+      }
+    ]
+  }
+  
